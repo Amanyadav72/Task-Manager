@@ -55,7 +55,8 @@ task_manager/
 *
 
 **Homepage Example:**
-![Homepage](static/screenshots/homepage.png)
+![Homepage](static/screenshots/<img width="1920" height="1080" alt="Screenshot 2025-08-20 124100" src="https://github.com/user-attachments/assets/a8f81eea-e35a-49f9-a3ae-ae3faf34f0e0" />
+)
 
 ---
 

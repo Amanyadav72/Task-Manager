@@ -1,8 +1,3 @@
-Got it 👍 Let’s make a **professional `README.md`** for your **Task Manager Flask project**.
-This will be **GitHub-ready**, well-structured, and include badges, screenshots (placeholders), setup guide, and future improvements.
-
----
-
 # 📋 Task Manager App
 
 A simple **Flask-based Task Manager** web application where users can:
@@ -114,6 +109,12 @@ task_manager/
 * [ ] Add **user authentication** (login/signup)
 
 ---
+## Author
+
+Developed by [Aman Yadav].  
+Feel free to contribute or suggest improvements!
+
+---
 
 ## 🤝 Contributing
 
@@ -127,4 +128,4 @@ This project is licensed under the **MIT License** – free to use and modify.
 
 ---
 
-👉 Would you like me to also **add GitHub badges** (e.g., Python version, Flask, license) at the top of the README so it looks even more professional?
+

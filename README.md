@@ -1,6 +1,6 @@
 # Task Manager
 
-A simple and effective web-based Task Manager built with Flask.  
+A simple and efficient web-based Task Manager built with Flask.  
 This application allows users to add tasks with deadlines, mark them as complete, and delete them. All tasks are stored locally in a JSON file for easy management.
 
 ---
@@ -12,6 +12,13 @@ This application allows users to add tasks with deadlines, mark them as complete
 - **Mark as Complete:** Mark tasks as done when finished.
 - **Delete Tasks:** Remove tasks you no longer need.
 - **Persistent Storage:** Tasks are saved in a local JSON file.
+- **Simple UI:** Clean and responsive interface using HTML and CSS.
+
+---
+
+## Screenshots
+
+> _Add screenshots of your app here if desired._
 
 ---
 
@@ -25,26 +32,27 @@ This application allows users to add tasks with deadlines, mark them as complete
 ### Installation
 
 1. **Clone the repository:**
-   ```
-`
-   git clone https://github.com/yourusername/task_manager.git
-   cd task_manager
-   ```
+    ```bash
+    git clone https://github.com/yourusername/task_manager.git
+    cd task_manager
+    ```
+
 2. **Install dependencies:**
-   ```
-   pip install flask
-   ```
+    ```bash
+    pip install flask
+    ```
 
 ### Running the Application
 
 1. **Start the Flask server:**
-   ```
-   python app.py
-   ```
+    ```bash
+    python app.py
+    ```
+
 2. **Open your browser and go to:**
-   ```
-   http://localhost:5000
-   ```
+    ```
+    http://localhost:5000
+    ```
 
 ---
 
@@ -54,20 +62,43 @@ This application allows users to add tasks with deadlines, mark them as complete
 task_manager/
 │
 ├── app.py
-├── tasks.json
+├── tasks.json           # (created automatically)
 ├── templates/
 │   ├── index.html
 │   └── layout.html
-└── static/
-    └── style.css
+├── static/
+│   └── style.css
+└── .git/
 ```
+
+- **app.py**: Main Flask application file.
+- **tasks.json**: Stores all tasks (created automatically).
+- **templates/**: Contains HTML templates for the app.
+- **static/**: Contains static files like CSS.
+- **.git/**: Git repository folder.
 
 ---
 
 ## Customization
 
-- **Styling:** Modify style.css to change the look and feel.
-- **Templates:** Edit HTML files in the templates folder for layout changes.
+- **Styling:** Modify `static/style.css` to change the look and feel.
+- **Templates:** Edit HTML files in the `templates` folder for layout changes.
+
+---
+
+## API Endpoints
+
+- `/`  
+  Displays all tasks.
+
+- `/add`  
+  Adds a new task (POST method).
+
+- `/complete/<task_id>`  
+  Marks a task as complete.
+
+- `/delete/<task_id>`  
+  Deletes a task.
 
 ---
 
@@ -84,16 +115,10 @@ Feel free to contribute or suggest improvements!
 
 ---
 
-## Screenshots
-
-_Add screenshots of your app here if desired._
-
----
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-**Enjoy managing your tasks efficiently!**
+**Enjoy managing your tasks
